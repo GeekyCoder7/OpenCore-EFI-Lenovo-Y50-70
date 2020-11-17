@@ -38,5 +38,5 @@
  - Brightness keys on keyboard
 
 
-Note: In order to use iMessage and Facetime you need to change your SMBIOS, with GenSMBIOS.
+Note: In order to use iMessage and Facetime you need to change your SMBIOS, with GenSMBIOS.<br>
 Link: https://github.com/corpnewt/GenSMBIOS
