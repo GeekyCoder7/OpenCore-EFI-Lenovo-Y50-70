@@ -1,0 +1,1 @@
+# OpenCore-EFI-Lenovo-Y50-70
