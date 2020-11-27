@@ -33,9 +33,8 @@
  - Sleep/Wake
  - Auto Brightness Sensors
  - iMessage & Facetime
+ - Brightness keys on keyboard (Fixed by migrating from ApplePS2SmartTouchPad.kext to VoodooPS2Controller.kext)
  
- **Not working yet:**
- - Brightness keys on keyboard
 
 
 Note: In order to use iMessage and Facetime you need to change your SMBIOS, with GenSMBIOS.<br>
