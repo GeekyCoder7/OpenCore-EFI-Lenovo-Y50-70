@@ -1139,7 +1139,7 @@
 			<key>CustomSMBIOSGuid</key>
 			<false/>
 			<key>DisableIoMapper</key>
-			<false/>
+			<true/>
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
@@ -1194,7 +1194,7 @@
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>External</string>
+			<string>Builtin</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -1207,9 +1207,9 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<false/>
+			<true/>
 			<key>ApplePanic</key>
-			<false/>
+			<true/>
 			<key>DisableWatchDog</key>
 			<false/>
 			<key>DisplayDelay</key>
@@ -1243,7 +1243,7 @@
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
-			<false/>
+			<true/>
 			<key>AllowSetDefault</key>
 			<true/>
 			<key>ApECID</key>
@@ -1267,7 +1267,7 @@
 			<key>SecureBootModel</key>
 			<string>Disabled</string>
 			<key>ScanPolicy</key>
-			<integer>17760515</integer>
+			<integer>0</integer>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1443,7 +1443,7 @@
 			<key>HideVerbose</key>
 			<true/>
 			<key>JumpstartHotPlug</key>
-			<true/>
+			<false/>
 			<key>MinDate</key>
 			<integer>0</integer>
 			<key>MinVersion</key>
@@ -1556,7 +1556,7 @@
 			<key>AppleSecureBoot</key>
 			<false/>
 			<key>AppleSmcIo</key>
-			<true/>
+			<false/>
 			<key>AppleUserInterfaceTheme</key>
 			<false/>
 			<key>DataHub</key>
@@ -1581,7 +1581,7 @@
 			<key>IgnoreInvalidFlexRatio</key>
 			<true/>
 			<key>ReleaseUsbOwnership</key>
-			<false/>
+			<true/>
 			<key>RequestBootVarRouting</key>
 			<true/>
 			<key>TscSyncTimeout</key>
