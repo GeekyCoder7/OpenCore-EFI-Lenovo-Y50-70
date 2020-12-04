@@ -11,7 +11,11 @@
   - Nvidia GTX 860M 4GB (unsupported)
   - 16GB DDR4 Ram
   - Broadcom BCM94352Z (Network card)
-
+  
+  ### For Dual Boot Users ONLY:
+  Make sure you have your Microsoft folder in your EFI, you need to add manually into your config.plist like this:
+  Misc -> BlessOverride -> \EFI\Microsoft\Boot\bootmgfw.efi
+  
  
  Before updating any kext create pendrive copy of actual EFI so if something wont
  work you can restore it.
@@ -38,7 +42,12 @@
  - iMessage & Facetime
  - Brightness keys on keyboard (Fixed by migrating from ApplePS2SmartTouchPad.kext to VoodooPS2Controller.kext)
  
+ 
+ 
 
 
-Note: In order to use iMessage and Facetime you need to change your SMBIOS, with GenSMBIOS.<br>
-Link: https://github.com/corpnewt/GenSMBIOS
+Notes: 
+- In order to use iMessage and Facetime you need to change your SMBIOS, with GenSMBIOS.<br>
+Link: https://github.com/corpnewt/GenSMBIOS <br>
+- For those having issues with the display color, for some users the display color have a light brownish tint. In order to fix this you need to calibrate your display colors, by going into display settings from system preferences, then click calibrate from the color tab.
+
