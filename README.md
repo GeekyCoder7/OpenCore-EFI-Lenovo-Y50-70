@@ -14,7 +14,8 @@
   
   ### For Dual Boot Users ONLY:
  - Make sure you have your Microsoft folder in your EFI, you need to add manually into your config.plist like this: <br>
-  Misc -> BlessOverride -> \EFI\Microsoft\Boot\bootmgfw.efi
+  Misc -> BlessOverride -> \EFI\Microsoft\Boot\bootmgfw.efi <br>
+  Or you can simply use the file named "Config-DualBoot.plist", but you just have to delete the "Config.plist" and rename "Config-DualBoot.plist" into "Config.plist".
   
  
  Before updating any kext create pendrive copy of actual EFI so if something wont
