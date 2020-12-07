@@ -1,7 +1,9 @@
-## OpenCore EFI for Lenovo Y50-70 (SHD-1080p) updated for Big Sur
+## OpenCore EFI for Lenovo Y50-70 (SHD-1080p or UHD 4K) updated for Big Sur
 
 ### For installing BigSur use PRE-EFI.
 ### After installation, use POST-EFI.
+
+
 
 ### Updated to OpenCore 0.6.4
 
@@ -12,10 +14,16 @@
   - 16GB DDR4 Ram
   - Broadcom BCM94352Z (Network card)
   
+  
+  ### For UHD users ONLY:
+  - If you wish to use "Config-UHD.plist", you need to delete "Config.plist" and rename "Config-UHD.plist" to "Config.plist"
+  
+  
   ### For Dual Boot Users ONLY:
  - Make sure you have your Microsoft folder in your EFI, you need to add manually into your config.plist like this: <br>
   Misc -> BlessOverride -> \EFI\Microsoft\Boot\bootmgfw.efi <br>
-  Or you can simply use the file named "Config-DualBoot.plist", but you just have to delete the "Config.plist" and rename "Config-DualBoot.plist" into "Config.plist".
+  
+  #### You can simply use the file named "Config-DualBoot.plist" for SHD and "Config-DualBoot-UHD.plist" for 4K UHD, but you just have to delete the "Config.plist" and rename it to "Config.plist".
   
  
  Before updating any kext create pendrive copy of actual EFI so if something wont
