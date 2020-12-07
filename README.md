@@ -3,7 +3,7 @@
 ### For installing BigSur use PRE-EFI.
 ### After installation, use POST-EFI.
 
-### Updated to OpenCore 0.6.3
+### Updated to OpenCore 0.6.4
 
 **Specs:**
   - Intel Core i7-4710HQ
