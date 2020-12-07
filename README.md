@@ -31,6 +31,7 @@
  
  **What works:**
  
+ - Dual Boot with Windows/Linux
  - built-in keyboard
  - built-in trackpad (multi gestures)
  - HDMI video/audio with hotplug
@@ -43,7 +44,7 @@
  - native power management
  - battery status
  - backlight controls with smooth transitions, save/restore across restart
- - accelerated graphics for HD4600
+ - accelerated graphics for HD4600 (both 1080p and 4K)
  - wired Ethernet
  - retina scaling
  - Sleep/Wake
