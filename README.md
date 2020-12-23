@@ -1,8 +1,7 @@
-## OpenCore EFI for Lenovo Y50-70 (SHD-1080p or UHD 4K) updated for Big Sur
+## OpenCore EFI for Lenovo Y50-70 (SHD-1080p and UHD 4K) updated for Big Sur
 
 ### For installing BigSur use PRE-EFI.
 ### After installation, use POST-EFI.
-
 
 
 ### Updated to OpenCore 0.6.4
@@ -20,17 +19,22 @@
   
   
   ### For Dual Boot Users ONLY:
- - Make sure you have your Microsoft folder in your EFI, you need to add manually into your config.plist like this: <br>
-  Misc -> BlessOverride -> \EFI\Microsoft\Boot\bootmgfw.efi <br>
-  
-  #### You can simply use the file named "Config-DualBoot.plist" for SHD and "Config-DualBoot-UHD.plist" for 4K UHD, but you just have to delete the "Config.plist" and rename it to "Config.plist".
+
+ - Download  [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator) (OCC) 
+ - Open your Config.plist with OCC
+ - Go to Misc and click Entries tab
+ - Click '+' button on the right bottom. A new entry will be created and you will see a browse button
+ - Click the browse button and for windows users, go to your EFI folder  and locate bootmgfw.efi  (\EFI\Microsoft\Boot\bootmgfw.efi) and click open
+ - Change the entry name from bootmgfw to Windows
+
   
  
  Before updating any kext create pendrive copy of actual EFI so if something wont
  work you can restore it.
  
  **What works:**
-
+ 
+- Dual Boot with Windows
  - built-in keyboard
  - built-in trackpad (multi gestures)
  - HDMI video/audio with hotplug
@@ -50,10 +54,7 @@
  - Auto Brightness Sensors
  - iMessage & Facetime
  - Brightness keys on keyboard (Fixed by migrating from ApplePS2SmartTouchPad.kext to VoodooPS2Controller.kext)
- 
- **What does not work:**
 
- - Dual Boot with Windows/Linux
 
 
 ### Notes: 
