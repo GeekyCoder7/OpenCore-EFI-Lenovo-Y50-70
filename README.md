@@ -30,8 +30,7 @@
  work you can restore it.
  
  **What works:**
- 
- - Dual Boot with Windows/Linux
+
  - built-in keyboard
  - built-in trackpad (multi gestures)
  - HDMI video/audio with hotplug
@@ -52,8 +51,9 @@
  - iMessage & Facetime
  - Brightness keys on keyboard (Fixed by migrating from ApplePS2SmartTouchPad.kext to VoodooPS2Controller.kext)
  
- 
- 
+ **What does not work:**
+
+ - Dual Boot with Windows/Linux
 
 
 ### Notes: 
