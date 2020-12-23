@@ -62,7 +62,7 @@ Link: https://github.com/corpnewt/GenSMBIOS <br>
 - For those having issues with the display color, for some users the display color have a light brownish tint. <br>
 In order to fix this you need to calibrate your display colors, by going into display settings from system preferences, then click calibrate from the color tab. <br>
 - You may need to modify keys for the keyboard. For me the command was swapped with alt button (windows button on keyboard). So in order to fix this do the following: <br>
-  1.) Go to System Preferences -> Keyboard -> Modifier Keys
-  2.) Change "Option Key" to "Command"
-  3.) Change  "Command Key" to "Option"
+  1.) Go to System Preferences -> Keyboard -> Modifier Keys <br>
+  2.) Change "Option Key" to "Command" <br>
+  3.) Change  "Command Key" to "Option" <br>
 
