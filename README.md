@@ -6,7 +6,7 @@
 
 #### Before using this EFI, make a copy of your EFI and read [`Notes`](#Notes) section carefully.
 
-**Specs:**
+### Specs:
   - Intel Core i7-4710HQ
   - Intel HD4600 integrated GPU
   - Nvidia GTX 860M 4GB (unsupported)
@@ -31,7 +31,7 @@
   
 
  
- **What works:**
+ ### What works:
  
  - Dual Boot with Windows
  - built-in keyboard
