@@ -34,7 +34,7 @@
  ### What works:
  
  - Dual Boot with Windows
- - Boot Windows from OC without injections. This fixed the issue with Lenovo Vantage recognizing your Lenovo as a mac.
+ - Disabled OC injections with Windows (Fixed the issue with Lenovo Vantage recognizing your Lenovo as a mac)
  - built-in keyboard
  - built-in trackpad (multi gestures)
  - HDMI video/audio with hotplug
