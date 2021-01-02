@@ -34,6 +34,7 @@
  ### What works:
  
  - Dual Boot with Windows
+ - Boot Windows from OC without injections. This fixed the issue with Lenovo Vantage recognizing your Lenovo as a mac.
  - built-in keyboard
  - built-in trackpad (multi gestures)
  - HDMI video/audio with hotplug
@@ -53,7 +54,6 @@
  - Auto Brightness Sensors
  - iMessage & Facetime
  - Brightness keys on keyboard (Fixed by migrating from ApplePS2SmartTouchPad.kext to VoodooPS2Controller.kext)
-
 
 
 ### Notes: 
