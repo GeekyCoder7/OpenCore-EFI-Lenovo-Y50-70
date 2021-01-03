@@ -65,4 +65,5 @@ In order to fix this you need to calibrate your display colors, by going into di
   1. Go to System Preferences -> Keyboard -> Modifier Keys <br>
   2. Change "Option Key" to "Command" <br>
   3. Change  "Command Key" to "Option" <br>
+- If you have ALPS trackpad use the ALPS-VoodooPS2Controller.kext, but rename to VoodooPS2Controller.kext so that you won't end up having a bootloop <br>
 
