@@ -66,7 +66,7 @@ chmod +x GenSMBIOS.command
 ```
 3. Install MacSerial
 4. Generate SMBIOS
-5. Type `MacBookPro11,5` (You can use anything from 11,1 to 11,5)
+5. Type `MacBookPro11,4` (You can use anything from 11,1 to 11,4)
 6. You will get your SMBIOS: Type, Serial, Board Serial and SmUUID.
 7. Edit your Config.plist either with OCC or Xcode or TextEdit: <br>
   i. `Type` to `Generic -> SystemProductName` <br>
