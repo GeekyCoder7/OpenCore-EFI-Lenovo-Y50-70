@@ -5,7 +5,7 @@
 	<key>#For Lenovo</key>
 	<string>Y50-70</string>
 	<key>#OpenCore</key>
-	<string>0.6.4</string>
+	<string>0.6.5</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -1415,7 +1415,7 @@
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>MacBookPro11,2</string>
+			<string>MacBookPro11,5</string>
 			<key>SystemSerialNumber</key>
 			<string>C00000000000</string>
 			<key>SystemUUID</key>
