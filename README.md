@@ -55,6 +55,25 @@
  - iMessage & Facetime
  - Brightness keys on keyboard (Fixed by migrating from `ApplePS2SmartTouchPad.kext` to `VoodooPS2Controller.kext`)
 
+### Setup SMBIOS:
+
+1. Download [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
+2. Do the following:
+```
+cd GenSMBIOS
+chmod +x GenSMBIOS.command
+./GenSMBIOS.command
+```
+3. Install MacSerial
+4. Generate SMBIOS
+5. Type `MacBookPro11,5` (You can use anything from 11,1 to 11,5)
+6. You will get your SMBIOS: Type, Serial, Board Serial and SmUUID.
+7. Edit your Config.plist either with OCC or Xcode or TextEdit: <br>
+  i. `Type` to `Generic -> SystemProductName` <br>
+  ii. `Serial` to `Generic -> SystemSerialNumber` <br>
+  iii. `Board Serial` to `Generic -> MLB` <br>
+  iv. `SmUUID` to `Generic -> SystemUUID` <br>
+
 
 ### Notes: 
 - In order to use iMessage and Facetime, see [#12](https://github.com/GeekyCoder7/OpenCore-EFI-Lenovo-Y50-70/issues/12#issuecomment-754111916).<br>
