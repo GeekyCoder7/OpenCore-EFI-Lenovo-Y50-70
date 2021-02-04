@@ -1,5 +1,5 @@
 # OpenCore EFI for Lenovo Y50-70 (FHD-1080p and UHD 4K) updated for Big Sur
-## Updated to OpenCore 0.6.5
+## Updated to OpenCore 0.6.6
 
 ### For installing BigSur, use PRE-EFI.
 ### After installation, use POST-EFI.
@@ -21,12 +21,13 @@
   
   ### For Dual Boot:
   
- 1. Download  [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator) (OCC) 
- 2. Open your Config.plist with OCC
- 3. Go to Misc and click Entries tab
- 4. Click `+` button on the right bottom. A new entry will be created and you will see a browse button
- 5. Click the browse button and for windows users, go to your EFI folder  and locate `bootmgfw.efi`  (\EFI\Microsoft\Boot\bootmgfw.efi) and click open
- 6. Change the entry name from `bootmgfw` to `Windows`
+ 1. Put the `Microsoft` into `OC` folder
+ 2. Download  [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator) (OCC) 
+ 3. Open your Config.plist with OCC
+ 4. Go to Misc and click Entries tab
+ 5. Click `+` button on the right bottom. A new entry will be created and you will see a browse button
+ 6. Click the browse button and for windows users, go to your EFI folder  and locate `bootmgfw.efi`  (\EFI\Microsoft\Boot\bootmgfw.efi) and click open
+ 7. Change the entry name from `bootmgfw` to `Windows`
 
   
 
@@ -84,4 +85,4 @@ In order to fix this you need to calibrate your display colors, by going into di
   2. Change `Option` Key to `Command` <br>
   3. Change  `Command` Key to `Option` <br>
 - If you have ALPS trackpad use the `ALPS-VoodooPS2Controller.kext`, but rename to `VoodooPS2Controller.kext` so that you won't end up having a bootloop. <br>
-
+- After OC 0.6.6, you need to put the `Microsoft` folder in `OC`, and change the `bootmgfw.efi` directory. <br>
