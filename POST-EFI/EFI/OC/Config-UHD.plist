@@ -1163,6 +1163,8 @@
 			<key>PanicNoKextDump</key>
 			<true/>
 			<key>PowerTimeoutKernelPanic</key>
+			<integer>-1</integer>
+			<key>SetApfsTrimTimeout</key>
 			<true/>
 			<key>ThirdPartyDrives</key>
 			<false/>
@@ -1199,6 +1201,8 @@
 			<false/>
 			<key>PickerMode</key>
 			<string>External</string>
+			<key>PickerVariant</key>
+			<string>Modern</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -1256,8 +1260,6 @@
 			<false/>
 			<key>BlacklistAppleUpdate</key>
 			<true/>
-			<key>BootProtect</key>
-			<string>Bootstrap</string>
 			<key>DmgLoading</key>
 			<string>Signed</string>
 			<key>EnablePassword</key>
@@ -1418,6 +1420,8 @@
 			<integer>0</integer>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
+			<key>MaxBIOSVersion</key>
+			<false/>
 			<key>ROM</key>
 			<data>ESIzRFVm</data>
 			<key>SpoofVendor</key>

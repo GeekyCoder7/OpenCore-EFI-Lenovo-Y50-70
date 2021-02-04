@@ -1161,6 +1161,8 @@
 			<key>PanicNoKextDump</key>
 			<true/>
 			<key>PowerTimeoutKernelPanic</key>
+			<integer>-1</integer>
+			<key>SetApfsTrimTimeout</key>
 			<true/>
 			<key>ThirdPartyDrives</key>
 			<false/>
@@ -1196,7 +1198,7 @@
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PickerVariant</key>
-			<string>Auto</string>
+			<string>Modern</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -1256,8 +1258,6 @@
 			<false/>
 			<key>BlacklistAppleUpdate</key>
 			<true/>
-			<key>BootProtect</key>
-			<string>Bootstrap</string>
 			<key>DmgLoading</key>
 			<string>Signed</string>
 			<key>EnablePassword</key>
@@ -1434,6 +1434,8 @@
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
+			<key>MaxBIOSVersion</key>
+			<false/>
 			<key>SystemProductName</key>
 			<string>MacBookPro11,4</string>
 			<key>SystemSerialNumber</key>
