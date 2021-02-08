@@ -21,7 +21,7 @@
   
   ### For Dual Boot:
   
- 1. Put the `Microsoft` into `OC` folder
+ 1. Put the `Microsoft` folder into `OC` folder
  2. Download  [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator) (OCC) 
  3. Open your Config.plist with OCC
  4. Go to Misc and click Entries tab
