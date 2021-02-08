@@ -55,6 +55,7 @@
  - Auto Brightness Sensors
  - iMessage & Facetime
  - Brightness keys on keyboard (Fixed by migrating from `ApplePS2SmartTouchPad.kext` to `VoodooPS2Controller.kext`)
+ - Built in Card Reader
 
 ### Setup SMBIOS:
 
