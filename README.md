@@ -20,9 +20,22 @@
   
   
   ### For Dual Boot:
-  - After updating to OC 0.6.6, no need to do anything. Windows will be automatically detected by OC <br>
-  - Make sure to have the `Microsoft` folder in the same folder as `BOOT` and `OC`<br>
-  - No need to add any entries. If you have entries added, you can remove them
+  #### Method 1:
+ 1. Put the `Microsoft` folder into `OC` folder
+ 2. Download  [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator) (OCC) 
+ 3. Open your Config.plist with OCC
+ 4. Go to Misc and click Entries tab
+ 5. Click `+` button on the right bottom. A new entry will be created and you will see a browse button
+ 6. Click the browse button and for windows users, go to your EFI folder  and locate `bootmgfw.efi`  (\EFI\Microsoft\Boot\bootmgfw.efi) and click open
+ 7. Change the entry name from `bootmgfw` to `Windows`<br>
+ Note: If you update Windows, Windows will write the files on `EFI\Microsoft`. You will need to move the new files to `EFI\OC\Microsoft`
+ 
+ #### Method 2:
+  1. Download [EasyUEFI](https://www.easyuefi.com/index-us.html)
+  2. Add a new boot entry with the path `EFI/BOOT/BOOTx64`
+  3. If Windows and Big Sur are on the same drive, you will need to add a BlessOveride from Misc using OCC. The BlessOveride entry is the following:<br>
+  ```\EFI\Microsoft\Boot\bootmgfw.efi```
+
 
   
 
