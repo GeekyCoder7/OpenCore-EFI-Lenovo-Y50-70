@@ -22,7 +22,7 @@
   ### For Dual Boot:
   - After updating to OC 0.6.6, no need to do anything. Windows will be automatically detected by OC <br>
   - Make sure to have the `Microsoft` folder in the same folder as `BOOT` and `OC`<br>
-  - No need to add any entries. If you have entries added, you can remove them.
+  - No need to add any entries. If you have entries added, you can remove them
 
   
 
@@ -82,4 +82,3 @@ In order to fix this you need to calibrate your display colors, by going into di
   2. Change `Option` Key to `Command` <br>
   3. Change  `Command` Key to `Option` <br>
 - If you have ALPS trackpad use the `ALPS-VoodooPS2Controller.kext`, but rename to `VoodooPS2Controller.kext` so that you won't end up having a bootloop. <br>
-- After OC 0.6.6, you need to put the `Microsoft` folder in `OC`, and change the `bootmgfw.efi` directory. <br>
