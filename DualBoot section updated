@@ -20,14 +20,27 @@
   
   
   ### For Dual Boot:
- 1. Put the `Microsoft` folder into `OC` folder
- 2. Download  [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator) (OCC) 
- 3. Open your Config.plist with OCC
- 4. Go to Misc and click Entries tab
- 5. Click `+` button on the right bottom. A new entry will be created and you will see a browse button
- 6. Click the browse button and for windows users, go to your EFI folder  and locate `bootmgfw.efi`  (\EFI\Microsoft\Boot\bootmgfw.efi) and click open
- 7. Change the entry name from `bootmgfw` to `Windows`<br>
- Note: If you update Windows, Windows will write the files on `EFI\Microsoft`. You will need to move the new files to `EFI\OC\Microsoft`
+ 1.  Make sure that `Microsoft` is in the same folder as `BOOT` and `OC`
+ 2. Boot to Windows from BOOT MENU
+ 3. Download [EasyUEFI](easyuefi.com/index-us.html)
+ 4. Open EasyUEFI and click `Manage EFI Boot Options`
+ 5. Click the `Create a new entry` icon (second icon from the center column)
+ 6. Do the following:
+    
+    1. Select the Type: `Linux or other OS` and write as description: `OpenCore`
+    2. Select `EFI` as target partition
+    3. Click `browse` and locate the `OpenCore.efi` file and click `OK`
+    4. Click `OK` again to add the entry
+    5. Once the entry is added, click on OpenCore and start clicking the `arrow up` button (first button from the center column) until OpenCore appears on the top of the table.
+    
+ 7. After doing this restart your laptop and you will see opencore booting as priority option.
+ 8. Boot to Big Sur
+ 9. Download  [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator) (OCC) 
+ 10. Open your Config.plist with OCC
+ 11. Go to Misc and click Entries tab
+ 12. Click `+` button on the right bottom. A new entry will be created and you will see a browse button
+ 13. Click the browse button and for windows users, go to your EFI folder  and locate `bootmgfw.efi`  (\EFI\Microsoft\Boot\bootmgfw.efi) and click open
+ 14. Change the entry name from `bootmgfw` to `Windows`<br>
   
 
  
