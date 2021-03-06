@@ -1,5 +1,5 @@
 # OpenCore EFI for Lenovo Y50-70 (FHD-1080p and UHD 4K) updated for Big Sur
-## Updated to OpenCore 0.6.6
+## Updated to OpenCore 0.6.8
 
 ### For installing BigSur, use PRE-EFI.
 ### After installation, use POST-EFI.
