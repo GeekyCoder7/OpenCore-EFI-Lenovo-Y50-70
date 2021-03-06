@@ -20,6 +20,8 @@
   
   
   ### For Dual Boot:
+  Note: After resetting NVRAM, you need to do the steps from 4 to 6.
+  
  1.  Make sure that `Microsoft` is in the same folder as `BOOT` and `OC`
  2. Boot to Windows from BOOT MENU
  3. Download [EasyUEFI](easyuefi.com/index-us.html)
