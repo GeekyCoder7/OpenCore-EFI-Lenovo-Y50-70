@@ -24,7 +24,7 @@
   
  1.  Make sure that `Microsoft` is in the same folder as `BOOT` and `OC`
  2. Boot to Windows from BOOT MENU
- 3. Download [EasyUEFI](easyuefi.com/index-us.html)
+ 3. Download [EasyUEFI](https://www.easyuefi.com/index-us.html)
  4. Open EasyUEFI and click `Manage EFI Boot Options`
  5. Click the `Create a new entry` icon (second icon from the center column)
  6. Do the following:
