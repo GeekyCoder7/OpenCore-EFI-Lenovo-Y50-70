@@ -5,7 +5,7 @@
 	<key>#For Lenovo</key>
 	<string>Y50-70</string>
 	<key>#OpenCore</key>
-	<string>0.7.0</string>
+	<string>0.7.1</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -959,6 +959,24 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>HoRNDIS.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/HoRNDIS</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -1276,7 +1294,7 @@
 			<key>PickerVariant</key>
 			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
-			<false/>
+			<true/>
 			<key>ShowPicker</key>
 			<true/>
 			<key>TakeoffDelay</key>
@@ -1311,15 +1329,13 @@
 				<key>Auxiliary</key>
 				<false/>
 				<key>Comment</key>
-				<string>Not signed for security reasons</string>
+				<string></string>
 				<key>Enabled</key>
-				<false/>
-				<key>Flavour</key>
-				<string>Auto</string>
+				<true/>
 				<key>Name</key>
-				<string>CustomOS</string>
+				<string>Windows</string>
 				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/NVMe(0x1,11-22-33-44-55-66-77-88)/HD(1,GPT,00000000-0000-0000-0000-000000000000,0x800,0x64000)/\EFI\BOOT\BOOTX64.EFI</string>
+				<string>PciRoot(0x0)/Pci(0x1F,0x2)/Sata(0x4,0x0,0x0)/HD(1,GPT,3A794F88-FA1D-4907-ABCF-72C1C7292E07,0x28,0x64000)/\EFI\Microsoft\Boot\bootmgfw.efi</string>
 				<key>TextMode</key>
 				<false/>
 			</dict>
@@ -1327,7 +1343,7 @@
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
-			<true/>
+			<false/>
 			<key>AllowSetDefault</key>
 			<true/>
 			<key>AllowToggleSip</key>
@@ -1506,6 +1522,242 @@
 		<true/>
 		<key>CustomMemory</key>
 		<false/>
+		<key>Memory</key>
+		<dict>
+			<key>DataWidth</key>
+			<integer>64</integer>
+			<key>Devices</key>
+			<array>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string>BANK 0</string>
+					<key>DeviceLocator</key>
+					<string>DIMM0</string>
+					<key>Manufacturer</key>
+					<string>Kingston</string>
+					<key>PartNumber</key>
+					<string>KHX1600C9S3L/8G</string>
+					<key>SerialNumber</key>
+					<string>5E28BD4E</string>
+					<key>Size</key>
+					<integer>8192</integer>
+					<key>Speed</key>
+					<integer>1600</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string></string>
+					<key>DeviceLocator</key>
+					<string>Slot 1</string>
+					<key>Manufacturer</key>
+					<string></string>
+					<key>PartNumber</key>
+					<string></string>
+					<key>SerialNumber</key>
+					<string></string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Speed</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string>BANK 2</string>
+					<key>DeviceLocator</key>
+					<string>DIMM2</string>
+					<key>Manufacturer</key>
+					<string>Kingston</string>
+					<key>PartNumber</key>
+					<string>99U5428-100.A00LF</string>
+					<key>SerialNumber</key>
+					<string>1722F155</string>
+					<key>Size</key>
+					<integer>8192</integer>
+					<key>Speed</key>
+					<integer>1600</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string>BANK 3</string>
+					<key>DeviceLocator</key>
+					<string>DIMM3</string>
+					<key>Manufacturer</key>
+					<string>Acidanthera</string>
+					<key>PartNumber</key>
+					<string></string>
+					<key>SerialNumber</key>
+					<string></string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Speed</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string></string>
+					<key>DeviceLocator</key>
+					<string>Slot 5</string>
+					<key>Manufacturer</key>
+					<string>Acidanthera</string>
+					<key>PartNumber</key>
+					<string></string>
+					<key>SerialNumber</key>
+					<string></string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Speed</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string></string>
+					<key>DeviceLocator</key>
+					<string>Slot 6</string>
+					<key>Manufacturer</key>
+					<string>Acidanthera</string>
+					<key>PartNumber</key>
+					<string></string>
+					<key>SerialNumber</key>
+					<string></string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Speed</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string></string>
+					<key>DeviceLocator</key>
+					<string>Slot 7</string>
+					<key>Manufacturer</key>
+					<string>Acidanthera</string>
+					<key>PartNumber</key>
+					<string></string>
+					<key>SerialNumber</key>
+					<string></string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Speed</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string></string>
+					<key>DeviceLocator</key>
+					<string>Slot 8</string>
+					<key>Manufacturer</key>
+					<string>Acidanthera</string>
+					<key>PartNumber</key>
+					<string></string>
+					<key>SerialNumber</key>
+					<string></string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Speed</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string></string>
+					<key>DeviceLocator</key>
+					<string>Slot 9</string>
+					<key>Manufacturer</key>
+					<string>Acidanthera</string>
+					<key>PartNumber</key>
+					<string></string>
+					<key>SerialNumber</key>
+					<string></string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Speed</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string></string>
+					<key>DeviceLocator</key>
+					<string>Slot 10</string>
+					<key>Manufacturer</key>
+					<string>Acidanthera</string>
+					<key>PartNumber</key>
+					<string></string>
+					<key>SerialNumber</key>
+					<string></string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Speed</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string></string>
+					<key>DeviceLocator</key>
+					<string>Slot 11</string>
+					<key>Manufacturer</key>
+					<string>Acidanthera</string>
+					<key>PartNumber</key>
+					<string></string>
+					<key>SerialNumber</key>
+					<string></string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Speed</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>AssetTag</key>
+					<string></string>
+					<key>BankLocator</key>
+					<string></string>
+					<key>DeviceLocator</key>
+					<string>Slot 12</string>
+					<key>Manufacturer</key>
+					<string>Acidanthera</string>
+					<key>PartNumber</key>
+					<string></string>
+					<key>SerialNumber</key>
+					<string></string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Speed</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+			<key>ErrorCorrection</key>
+			<integer>3</integer>
+			<key>FormFactor</key>
+			<integer>9</integer>
+			<key>MaxCapacity</key>
+			<integer>34359738368</integer>
+			<key>TotalWidth</key>
+			<integer>64</integer>
+			<key>Type</key>
+			<integer>24</integer>
+			<key>TypeDetail</key>
+			<integer>18</integer>
+		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseFeatures</key>
@@ -1681,9 +1933,9 @@
 			<key>DeviceProperties</key>
 			<false/>
 			<key>FirmwareVolume</key>
-			<false/>
+			<true/>
 			<key>HashServices</key>
-			<false/>
+			<true/>
 			<key>OSInfo</key>
 			<false/>
 			<key>UnicodeCollation</key>
