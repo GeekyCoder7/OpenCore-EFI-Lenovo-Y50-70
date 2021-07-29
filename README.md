@@ -4,7 +4,7 @@
 
 ### For Monterey use `Monterey EFI`, for BigSur use `BigSur EFI`
 
-### For installing BigSur, use PRE-EFI.
+### For installation, use PRE-EFI.
 ### After installation, use POST-EFI.
 
 #### Before using this EFI, make a copy of your EFI and read [`Notes`](#Notes) section carefully.
