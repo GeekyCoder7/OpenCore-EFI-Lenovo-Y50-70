@@ -5,7 +5,7 @@
 	<key>#For Lenovo</key>
 	<string>Y50-70</string>
 	<key>#OpenCore</key>
-	<string>0.7.0</string>
+	<string>0.7.1</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -1442,7 +1442,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>brcmfx-driver=2 brcmfx-country=#a  -igfxnohdmi -v</string>
+				<string>brcmfx-driver=2 brcmfx-country=#a  -igfxnohdmi</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>

@@ -5,7 +5,7 @@
 	<key>#For Lenovo</key>
 	<string>Y50-70</string>
 	<key>#OpenCore</key>
-	<string>0.7.0</string>
+	<string>0.7.1</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
