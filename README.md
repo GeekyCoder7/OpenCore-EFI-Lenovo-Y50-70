@@ -93,8 +93,7 @@ chmod +x GenSMBIOS.command
   ii. `Serial` to `Generic -> SystemSerialNumber` <br>
   iii. `Board Serial` to `Generic -> MLB` <br>
   iv. `SmUUID` to `Generic -> SystemUUID` <br>
-  v. `Apple ROM` to `Generic -> ROM` <br>
-
+  
 
 ### Notes: 
 - Before creating an issue, please check if there is an open/closed one already related with your issue.<br>
