@@ -1,5 +1,8 @@
-# OpenCore EFI for Lenovo Y50-70 (FHD-1080p and UHD 4K) updated for Big Sur
+# OpenCore EFI for Lenovo Y50-70 (FHD-1080p and UHD 4K) updated for Monterey
 ## Updated to OpenCore 0.7.1
+### Added support for Monterey
+
+### For Monterey use `Monterey EFI`, for BigSur use `BigSur EFI`
 
 ### For installing BigSur, use PRE-EFI.
 ### After installation, use POST-EFI.
@@ -13,7 +16,8 @@
   - 16GB DDR4 Ram
   - Broadcom BCM94352Z (Network card)
   
-  
+### Known Issues:
+  - Battery Management not working yet with Moneterey. 
   
   ### For UHD:
   - Use `Config-UHD.plist`, but you need to delete `Config.plist` and rename `Config-UHD.plist` to `Config.plist`
