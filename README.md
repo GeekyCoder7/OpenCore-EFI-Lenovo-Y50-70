@@ -102,3 +102,6 @@ In order to fix this you need to calibrate your display colors, by going into di
   2. Change `Option` Key to `Command` <br>
   3. Change  `Command` Key to `Option` <br>
 - If you have ALPS trackpad use the `ALPS-VoodooPS2Controller.kext`, but rename to `VoodooPS2Controller.kext` so that you won't end up having a bootloop. <br>
+
+# Thanks
+[@akavkl](https://github.com/akavkl) - Integration of HoRNDIS, used for usb tethering [#28](https://github.com/GeekyCoder7/OpenCore-EFI-Lenovo-Y50-70/pull/28).<br>
