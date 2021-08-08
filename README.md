@@ -107,4 +107,4 @@ In order to fix this you need to calibrate your display colors, by going into di
 - FileVault can be enabled from System Preferences, but it is recommended to leave as it is (turned off).
 
 # Thanks
-[@akavkl](https://github.com/akavkl) - Integration of HoRNDIS and FileVault, used for usb tethering [#28](https://github.com/GeekyCoder7/OpenCore-EFI-Lenovo-Y50-70/pull/28).<br>
+[@akavkl](https://github.com/akavkl) - Integration of HoRNDIS and FileVault [#28](https://github.com/GeekyCoder7/OpenCore-EFI-Lenovo-Y50-70/pull/28).<br>
