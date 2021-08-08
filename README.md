@@ -71,6 +71,8 @@
  - iMessage & Facetime
  - Brightness keys on keyboard (Fixed by migrating from `ApplePS2SmartTouchPad.kext` to `VoodooPS2Controller.kext`)
  - Built in Card Reader with Sinetek-rtsx
+ - USB Tethering iOS and Android Devices
+ - FileVault
 
 ### Setup SMBIOS:
 
@@ -104,4 +106,4 @@ In order to fix this you need to calibrate your display colors, by going into di
 - If you have ALPS trackpad use the `ALPS-VoodooPS2Controller.kext`, but rename to `VoodooPS2Controller.kext` so that you won't end up having a bootloop. <br>
 
 # Thanks
-[@akavkl](https://github.com/akavkl) - Integration of HoRNDIS, used for usb tethering [#28](https://github.com/GeekyCoder7/OpenCore-EFI-Lenovo-Y50-70/pull/28).<br>
+[@akavkl](https://github.com/akavkl) - Integration of HoRNDIS and FileVault, used for usb tethering [#28](https://github.com/GeekyCoder7/OpenCore-EFI-Lenovo-Y50-70/pull/28).<br>
