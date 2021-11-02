@@ -5,7 +5,7 @@
 	<key>#For Lenovo</key>
 	<string>Y50-70</string>
 	<key>#OpenCore</key>
-	<string>0.7.3</string>
+	<string>0.7.5</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -1660,34 +1660,42 @@
 			<dict>
 				<key>Arguments</key>
 				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-			<string>AudioDxe.efi</string>
-			</dict>
-			<dict>
-				<key>Arguments</key>
+				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-			<string>OpenHfsPlus.efi</string>
+				<string>AudioDxe.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
 				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-			<string>OpenRuntime.efi</string>
-			</dict>
-			<dict>
-				<key>Arguments</key>
+				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-			<string>OpenCanopy.efi</string>
+				<string>OpenHfsPlus.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>OpenRuntime.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>OpenCanopy.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>

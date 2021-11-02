@@ -1,5 +1,5 @@
 # OpenCore EFI for Lenovo Y50-70 (FHD-1080p and UHD 4K) updated for Monterey
-## Updated to OpenCore 0.7.3
+## Updated to OpenCore 0.7.5
 ### Added support for Monterey
 
 ### For Monterey use `Monterey EFI`, for BigSur use `BigSur EFI`
