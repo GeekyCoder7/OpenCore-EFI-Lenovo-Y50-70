@@ -15,7 +15,7 @@
 ### Steps after installation:
 
 1. Use PRE-EFI for installation.
-2. After installation, replace `PRE-EFI` with with `POST-EFI-BEFORE-PATCH`, otherwise it won't boot with `PRE-EFI`.
+2. After installation, replace `PRE-EFI` with `POST-EFI-BEFORE-PATCH` before booting, otherwise it won't boot with `PRE-EFI`.
 2. If you feel satisfied with your system, you can skip the rest.
 3. Download OpenCore Legacy Patcher [(OCLP)](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)
 4. Before launching OCLP, make sure the system EFI is updated with `POST-EFI-AFTER-PATCH`. Update also the EFI on your USB just in case booting from EFI partition fails.
