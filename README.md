@@ -1,13 +1,14 @@
-# OpenCore EFI for Lenovo Y50-70 (FHD-1080p and UHD 4K)<br>Support for Big Sur, Monterey and Ventura.
+# OpenCore EFI for Lenovo Y50-70 (FHD-1080p and UHD 4K)<br>Support for Big Sur, Monterey, Ventura and Sonama.
 
 <h2>Buy me a cup of coffee to support my work, thanks! <a href="https://www.buymeacoffee.com/GeekyCoder7" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a></h2>
 
-## Updated to OpenCore 0.8.8
+## Updated to OpenCore 0.9.5
 
-## Added FULL support for [Ventura](https://github.com/GeekyCoder7/OpenCore-EFI-Lenovo-Y50-70/tree/main/Ventura%20EFI)
+## Added FULL support for [Sonama](https://github.com/GeekyCoder7/OpenCore-EFI-Lenovo-Y50-70/tree/main/Sonama%20EFI)
 
 ### Other EFIs:
 
+1. [Ventura](https://github.com/GeekyCoder7/OpenCore-EFI-Lenovo-Y50-70/tree/main/Ventura%20EFI)
 1. [Monterey](https://github.com/GeekyCoder7/OpenCore-EFI-Lenovo-Y50-70/tree/main/Monterey%20EFI)
 2. [Big Sur](https://github.com/GeekyCoder7/OpenCore-EFI-Lenovo-Y50-70/tree/main/BigSur%20EFI)
 
